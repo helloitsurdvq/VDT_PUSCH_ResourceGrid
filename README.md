@@ -37,11 +37,13 @@ The simulation models the transmission and reception of data over a 5G PUSCH res
 - **TDL-B**: Simulates realistic multipath fading with specified tap delays and powers.
 
 ## Usage
-1. Run `main_lszf.m` for LS+ZF simulation, or `main_mmse.m` for MMSE simulation (comparing with LS+ZF):
+1. Run `main_lszf.m` for LS+ZF simulation, or `main_mmse.m` for MMSE simulation (comparing with LS+ZF), or run `main_mod.m` for different modulation scheme with channel estimation and equalization methods:
    ```matlab
    main_lszf
    % or
    main_mmse
+   % or 
+   main_mod
    ```
 2. Results (BER, MSE) will be plotted for various SNR values.
 
